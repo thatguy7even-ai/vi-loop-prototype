@@ -60,6 +60,9 @@ faster-whisper `tiny` and `base` models (~220MB).
 ## Files
 
 - `vi_loop_prototype.py` — the prototype (both arms)
+- `lexicon_ledger.py` — verdict-trail + revocation ledger (Q2 ruling):
+  append-only JSONL, tombstone revocation, Shuffled's ternary as a
+  first-class field, `diagnose(word)` prints the full trail
 - `words.txt` — lexicon (dwyl/english-words, words_alpha)
 - `README.md` — this file
 

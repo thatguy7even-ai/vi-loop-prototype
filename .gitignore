@@ -8,3 +8,5 @@ __pycache__/
 *.log
 hallucination-events.jsonl
 *.wav
+# Lexicon ledger is append-only at runtime; not committed.
+lexicon_ledger.jsonl
