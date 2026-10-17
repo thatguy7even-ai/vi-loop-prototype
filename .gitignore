@@ -1,0 +1,10 @@
+# Fetched model weights — re-download, don't commit.
+models/
+# Demo audio: PennSound educational-use sample. Fetch it yourself:
+# curl -L -o demo_clip.mp3 "http://media.sas.upenn.edu/pennsound/authors/Lindsay/Greet-Recordings/Lindsay-Vachel_38_312A_The-Moons-the-North-Winds-Cooky_WC-Greet-Recordings_New-York_1931.mp3"
+demo_clip.mp3
+# Run artifacts
+__pycache__/
+*.log
+hallucination-events.jsonl
+*.wav
